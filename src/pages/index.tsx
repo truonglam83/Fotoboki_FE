@@ -1,8 +1,9 @@
+import Home from "./home";
+
 function Index() {
   return (
-    <div>
-      <h1>index</h1>
-    </div>
+    // default page is home
+    <Home />
   );
 }
 

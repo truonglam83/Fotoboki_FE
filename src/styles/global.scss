@@ -1,10 +1,18 @@
 @import "./variables/variables";
-// @import "antd/dist/antd.css";
+@import "antd/dist/reset.css";
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Volkhov";
 }
 
 html {
