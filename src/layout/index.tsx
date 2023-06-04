@@ -10,9 +10,6 @@ type Props = {
 export default function MainLayout({ children }: Props) {
   return (
     <>
-      <Head>
-        <title>Next.js + TypeScript + Sass + Bootstrap</title>
-      </Head>
       <main>
         <Header />
         {children}
